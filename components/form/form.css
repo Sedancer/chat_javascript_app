@@ -1,0 +1,5 @@
+textarea[name="message"]{
+    border: 1px solid #a8a8a9;
+    background: transparent;
+    width: 70%;
+}
