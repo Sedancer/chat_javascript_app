@@ -38,10 +38,9 @@
 
     render () {
       this.el.innerHTML = `
-        <input name="username" required placeholder="Имя пользователя" />
         <form class="form">
+          <input name="username" required placeholder="Имя пользователя" />
           <textarea name="message" required placeholder="Сообщение..." rows=4></textarea>
-          <br/>
           <input type="submit"/>
         </form>
       `;

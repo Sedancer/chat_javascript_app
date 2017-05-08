@@ -2,4 +2,37 @@ textarea[name="message"]{
     border: 1px solid #a8a8a9;
     background: transparent;
     width: 70%;
+    height: 80px;
+    color: #a8a8a9;
+    float: left;
 }
+
+input[type="submit"]{
+    width: 130px;
+    border: 1px solid #a8a8a9;
+    background: transparent;
+    color: #a8a8a9;
+    height: 35px;
+    float: right;
+}
+input[name="username"]{
+    float: right;
+    width: 130px;
+    border: 1px solid #a8a8a9;
+    background: transparent;
+    color: #a8a8a9;
+    height: 35px;
+    margin-bottom: 10px;
+
+}
+.form{
+
+}
+.clearfix::after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
